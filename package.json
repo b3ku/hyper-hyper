@@ -1,0 +1,28 @@
+{
+  "name": "hyper-hyper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack --watch --mode development",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "mac",
+    "vibrancy"
+  ],
+  "author": "aku",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.17",
+    "color": "^4.2.0",
+    "react-transition-group": "^4.4.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.8",
+    "@babel/core": "^7.16.12",
+    "@babel/plugin-transform-react-jsx": "^7.16.7"
+  }
+}
